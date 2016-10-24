@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arabic="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp" >
+    
+    <ImageView 
+        android:id="@+id/reminder_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/dairy_item_icon_bg"
+        android:layout_marginRight="5dp"/>
+    
+    <LinearLayout 
+        android:id="@+id/reminder_time_order"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp">
+        
+        <TextView 
+            android:id="@+id/item_order"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dairy_item_num_bg"/>
+        
+        <com.islamic.monabihalzakren.ui.widgets.ArabicTextView
+            android:id="@+id/item_time"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            arabic:font="DroidNaskh-Regular.ttf"
+            android:textStyle="bold"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/reminder_details"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/reminder_time_order"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/reminder_icon"
+        android:gravity="right"
+        android:layout_marginRight="10dp">
+        
+        <com.islamic.monabihalzakren.ui.widgets.ArabicTextView
+            android:id="@+id/reminder_identifier"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:maxLines="2"
+            arabic:font="DroidNaskh-Regular.ttf"
+            android:layout_weight="1"/>
+        
+        <TextView 
+            android:id="@+id/reminder_status"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            style="?android:attr/textAppearanceSmall"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>

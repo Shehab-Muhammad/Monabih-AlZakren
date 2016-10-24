@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_display_category"
+        android:title="@string/pref_cat1" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_lang"
+            android:summary="@string/pref_lang_summ"
+            android:title="@string/pref_lang_ar" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_time_category"
+        android:title="@string/time_category" >
+        <com.islamic.monabihalzakren.ui.widgets.TimePickerPref
+            android:defaultValue="06:00 am"
+            android:key="pref_wake_time"
+            android:summary="@string/pref_wake_summary"
+            android:title="@string/pref_wake_title" />
+        <com.islamic.monabihalzakren.ui.widgets.TimePickerPref
+            android:defaultValue="12:00 am"
+            android:key="pref_sleep_time"
+            android:summary="@string/pref_sleep_summary"
+            android:title="@string/pref_sleep_title" />
+        <com.islamic.monabihalzakren.ui.widgets.TimePickerPref
+            android:defaultValue="07:00 am"
+            android:key="pref_sabah_azkar"
+            android:title="@string/pref_sbah_title" />
+        <com.islamic.monabihalzakren.ui.widgets.TimePickerPref
+            android:defaultValue="05:00 pm"
+            android:key="pref_masa2_azkar"
+            android:title="@string/pref_masa_title" />
+        <com.islamic.monabihalzakren.ui.widgets.TimePickerPref
+            android:defaultValue="08:00 am"
+            android:key="pref_salah_aldoha"
+            android:title="@string/pref_doha_salah_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_info"
+        android:title="@string/pref_info_title" >
+        <Preference
+            android:key="pref_about"
+            android:title="@string/pref_about_title" />
+        <Preference
+            android:key="pref_version"
+            android:summary="@string/version_num"
+            android:title="@string/pref_version_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

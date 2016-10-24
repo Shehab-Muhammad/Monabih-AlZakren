@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.islamic.monabihalzakren.ui.widgets.ArabicTextView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arabic="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/text2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:layout_gravity="right"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    arabic:font="DroidNaskh-Regular.ttf"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" />
+    
+

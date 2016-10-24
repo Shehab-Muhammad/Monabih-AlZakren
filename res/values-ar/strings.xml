@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">منبه الذاكرين</string>
+
+    <string-array name="menu1">
+        <item>التنبيهات اليومية</item>
+        <item>الأذكار</item>
+        <item>ختم القرآن</item>
+    </string-array>
+    <string-array name="menu2">
+        <item>الإعدادت</item>
+        <item>عن البرنامج</item>
+        <item>قيم البرنامج</item>
+    </string-array>
+    <string-array name="azkar_types">
+        <item>الأذكار اليومية</item>
+        <item>الأذكار المتكررة</item>
+    </string-array>
+    <string-array name="zekr_ids">
+        <item>سبحان الله</item>
+        <item>الحمد لله</item>
+        <item>الله أكبر</item>
+        <item>لا إله إلا الله</item>
+        <item>سبحان الله و بحمده سبحان الله العظيم</item>
+        <item>لا حول ولا قوة إلا بالله</item>
+        <item>لا إله إلا انت سبحانك إني كنت من الظالمين</item>
+        <item>اللهم صل علي سيدنا محمد</item>
+        <item>استغفر الله و اتوب إليه</item>
+        <item>أذكار منوعه</item>
+        <item>أذكار الصباح و المساء</item>
+        <item>أذكار النوم</item>
+        <item>صلاة الضحي</item>
+    </string-array>
+    <string-array name="notification_repeats">
+        <item>15 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>ساعة</item>
+        <item>ساعاتان</item>
+        <item>3 ساعات</item>
+        <item>4 ساعات</item>
+        <item>6 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعه</item>
+    </string-array>
+    <string-array name="arabic_nums">
+        <item>٠</item>
+        <item>١</item>
+        <item>٢</item>
+        <item>٣</item>
+        <item>٤</item>
+        <item>٥</item>
+        <item>٦</item>
+        <item>٧</item>
+        <item>٨</item>
+        <item>٩</item>
+    </string-array>
+    <string-array name="notification_types">
+        <item>إشعار بصوت الذكر</item>
+        <item>إشعار فقط</item>
+        <item>فتح التطبيق مباشرة</item>
+    </string-array>
+    <string-array name="zekr_dairy_actions">
+        <item>عدم التذكير به اليوم</item>
+        <item>تعديل الذكر</item>
+        <item>حذف الذكر</item>
+    </string-array>
+    <string-array name="khatmah_diary_actions">
+        <item>عدم التذكير به اليوم</item>
+        <item>قراءة ورد اليوم</item>
+        <item>تمت قراءة ورد اليوم</item>
+        <item>تعديل الختمة</item>
+        <item>تغيير الإسم</item>
+        <item>حذف الختمة</item>
+    </string-array>
+
+    <string name="arabic_numbers">٠١٢٣٤٥٦٧٨٩</string>
+    <string name="pref_cat1">إعدادات العرض</string>
+    <string name="navigation_drawer_open">فتح القائمة الجانبية</string>
+    <string name="navigation_drawer_close">إغلاق القائمة الجانبية</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="new_zekr">إضافة ذكر جديد</string>
+    <string name="title_activity_new_zekr">إضافة ذكر جديد</string>
+    <string name="zekr">الذكر :</string>
+    <string name="zekr_id">اختر الذكر :</string>
+    <string name="save">حفظ</string>
+    <string name="notify_header">التنبيه :</string>
+    <string name="zekr_start">يبدأ التنبيه من :</string>
+    <string name="zekr_repeat">يعاد التنبه كل :</string>
+    <string name="zekr_type_id">نوع الأذكار</string>
+    <string name="notify_type">طريقة التنبيه :</string>
+    <string name="save_zekr_done">تم حفظ الذكر</string>
+    <string name="notification_title_azkar">اذكر الله</string>
+    <string name="notification_message_azkar">لقد حان موعد : </string>
+    <string name="time_category">إعدادت الوقت</string>
+    <string name="pref_wake_title">وقت الاستيقاظ</string>
+    <string name="pref_wake_summary">لن يتم التنبيه بأي تذكير او ختمة قبل هذه الساعة يومياً</string>
+    <string name="pref_sleep_title">وقت النوم</string>
+    <string name="pref_sleep_summary">لن يتم التنبيه بأي تذكير او ختمة بعد هذه الساعة يومياً</string>
+    <string name="azkar_not_found">لا يوجد أذكار مخزنه</string>
+    <string name="zekr_reminder">هذا الذكر يتم التنبيه به كل </string>
+    <string name="zekr_type">أذكار</string>
+    <string name="menu_edit">تعديل</string>
+    <string name="menu_delete">حذف</string>
+    <string name="zekr_edit_title">تعديل الذكر</string>
+    <string name="zekr_edit_done">تم تعديل الذكر بنجاح</string>
+    <string name="pref_doha_salah_title">توقيت صلاة الضحي</string>
+    <string name="pref_sbah_title">توقيت أذكار الصباح</string>
+    <string name="pref_masa_title">توقيت أذكار المساء</string>
+    <string name="no_reminder">هذا الذكر لن يتم التنبيه به</string>
+    <string name="new_khatmah">إضافة ختمة جديدة</string>
+    <string name="khatmah_start_from_header">تبدأ الختمة من :</string>
+    <string name="khatmah_duration_header">مدة الختمة :</string>
+    <string name="khatmah_start_juz2">الجزء</string>
+    <string name="khatmah_start_sura">السورة</string>
+    <string name="khatmah_start_ayah">الآيه</string>
+    <string name="khatmah_duration_monthes">شهر</string>
+    <string name="khatmah_duration_dayes">يوم</string>
+    <string name="khatmah_duration_werd">الورد (صفحة / يوم)</string>
+    <string name="khatmah_reminder_header">التذكير :</string>
+    <string name="khatmah_reminder_time">وقت التبية :</string>
+    <string name="khatmah_reminder_name">اسم الختمة :</string>
+    <string name="khatmah_reminder_name_hint"><font size="12">ضع اسم لتعريف هذه الختمة</font></string>
+    <string name="discard_khatmah_message">هل تريد إلغاء هذه الختمة؟</string>
+    <string name="discard_khatmah_changes">هل تريد إلغاء التعديلات؟</string>
+    <string name="khatmah_save_done">تم حفظ الختمة بنجاح</string>
+    <string name="khatmah_name">ختمة</string>
+    <string name="notification_message_khatmah">وردك اليوم %1$d صفحة تبدأ من آيه %2$d سورة %3$s</string>
+    <string name="notification_action_read">قراءة</string>
+    <string name="notification_action_done">تمّ</string>
+    <string name="notification_action_not_now">ليس الآن</string>
+    <string name="khatmat_not_found">لا يوجد ختمات مخزنة</string>
+    <string name="khatmah_card_werd">ورد اليوم : من %1$s إلي %2$s</string>
+    <string name="khatmah_card_reminder">يتم التنبيه بهذه الختمة الساعه %s</string>
+    <string name="khatmah_card_no_reminder">هذه الختمه لا يوجد لها تنبيه</string>
+    <string name="popup_khatmah_done">تمت قراءة ورد اليوم</string>
+    <string name="popup_khatmah_read">قراءة الورد</string>
+    <string name="khatmah_update_toast">تم تحديث الختمة</string>
+    <string name="khatmah_update_all_toast">تم تحديث الختمات</string>
+    <string name="khatmah_edit_done">تم تعديل الختمة بنجاح</string>
+    <string name="khatmah_delete_done">تم حذف الختمة</string>
+    <string name="khatmah_delete_cab_done">تم حذف الختمات</string>
+    <string name="khatmah_delete_failed">لم يتم حذف الختمة</string>
+    <string name="khatmah_delete_cab_failed">بعض الختمات لم يتم حذفها</string>
+    <string name="discard_zekr_message">هل تريد إلغاء هذا الذكر؟</string>
+    <string name="all_not_found">لا يوجد تنبيهات لهذا اليوم</string>
+    <string name="khatmah_status">الورد اليومي %1$s صفحة</string>
+    <string name="rename_khatmah">تغير اسم الختمة</string>
+    <string name="delete_confirm">تأكيد الحذف</string>
+    <string name="delete_confirm_message">هل تريد حذف %s</string>
+    <string name="delete_confirm_zekr">هذا الذكر</string>
+    <string name="delete_zekr_confirm_selected_message">هل تريد حذف %s ذكر ؟</string>
+    <string name="delete_khatmah_confirm_selected_message">هل تريد حذف %s ختمة ؟</string>
+    <string name="warning">تحذير</string>
+    <string name="invalid_time_message">هذا الوقت خاطئ</string>
+    <string name="got_it">تم</string>
+    <string name="add_azkar_hint">        &lt;b>&lt;font color=#4ab5ab>إضافة ذكر جديد&lt;/font>&lt;/b>&lt;br/>
+        &lt;br/>يمكنك من خلال الضغط علي هذا الزر
+        &lt;br/>إضافة ذكر جديد و تحديد موعد التنبيه به.
+        &lt;br/>&lt;br/>و هناك العديد من الأذكار التي يمكن إضافتها منها الذي تكرر يومياً بشكل تلقائي
+        &lt;br/>و منها ما يتكرر حسب رغبتك.</string>
+    <string name="add_khatmah_hint">        &lt;b>&lt;font color=#4ab5ab>إضافة ختمة جديدة&lt;/font>&lt;/b>&lt;br/>
+        &lt;br/>يمكنك من خلال الضغط علي هذا الزر
+        &lt;br/>إضافة ختمة جديدة و تحديد موعد التنبيه بها اذا كنت تريد ذلك.
+        &lt;br/>&lt;br/>كما يمكنك بدأ الختمة حيثما شئت من المصحف و تستطيع تحديد وردك اليومي.
+        &lt;br/>و قراءة وردك اليومي في اي وقت و اخطار التطبيق بذلك حتي يقوم بتحديد ورد اليوم التالي.</string>
+    <string name="about_copyrights">        &lt;b>منبه الذاكرين&lt;/b>
+        &lt;br/>النسخة 1.1.1
+        &lt;br/>جميع الحقوق محفوظة © 2015&lt;br/>
+        &lt;br/>هذا التطبيق للتنبيه بالأذكار و ختمات القراءن التي يقرأها المسلم 
+        لمساعدته علي تنظيم هذه الأذكار و الختمات.
+        &lt;br/>هذا التطبيق هو صدقة جارية للمغفور له بإذن الله عبد المعز سيد نسألكم الدعاء له&lt;br/></string>
+    <string name="about_contact">        &lt;a href="mailto:shhab7@gmail.com">للتواصل معنا&lt;/a></string>
+    <string name="pref_info_title">المعلومات</string>
+    <string name="pref_about_title">عن منبه الذاكرين</string>
+    <string name="pref_version_title">النسخة</string>
+    <string name="version_num">1.1.1</string>
+    <string name="summary_title">لديك %1$d من %2$s</string>
+    <string name="summary_text">عرض كل %s</string>
+    <string name="khatmah">ختمة</string>
+    <string name="khatmat">الختمات</string>
+    <string name="azkar">الأذكار</string>
+    
+    
+    <string name="downloadPrompt_title">حمل الملفات المطلوبه؟</string>
+    <string name="downloadPrompt"> لكي يعمل التطبيق بنجاح تحتاج لتحميل بعض الملفات الان. إن لم يتم التحميل الان قد لا يعمل التطبيق بشكل صحيح و ستحتاج للاتصال بالنت للقراءة.هل تود التحميل الان؟</string>
+    <string name="downloadImportantPrompt">هناك تحديث هام صغير على ملفات الصور على هاتفكم. هل تود  تحميل الملف حالا؟</string>
+    <string name="downloadPrompt_ok">نعم</string>
+    <string name="downloadPrompt_no">لا</string>
+    <string name="downloading_title">جاري التحميل....</string>
+    <string name="downloading_message">يرجى الإنتظار حتى نهاية التحميل</string>
+    <string name="extracting_title">تجهيز&#8230;</string>
+    <string name="menu_about">عنا</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_jump_last_page">الصفحة الأخيرة</string>
+    <string name="menu_tags">التصنيفات</string>
+    <string name="menu_bookmarks">المرجعيات</string>
+    <string name="menu_bookmarks_page">مرجعيات الصفحات</string>
+    <string name="menu_bookmarks_ayah">مرجعيات الآيات</string>
+    <string name="menu_sort">تغير الترتيب</string>
+    <string name="menu_sort_date">تاريخ الإضافة</string>
+    <string name="menu_sort_location">موقعها في القرآن</string>
+    <string name="menu_sort_alphabetical">أبجدي</string>
+    <string name="menu_translation">التفسير/الترجمة</string>
+    <string name="menu_back_to_page">إلى التلاوة</string>
+    <string name="menu_help">مساعدة</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_get_translations">حمل التفاسير/التراجم</string>
+    <string name="menu_jump">انتقال سريع</string>
+    <string name="gotoPage">ادخل رقم الصفحة</string>
+    <string name="cancel">الغاء</string>
+    <string name="developedBy">لا تنسونا من صالح دعاءكم</string>
+    <string name="copyRights">حقوق الطبع محفوظة لجميع المسلمين</string>
+    <string name="help_title">الاسئلة المتداولة</string>
+    <string name="help">        &lt;b>كيف يتم تشغيل الصوت؟&lt;/b>
+        &lt;br/>
+        افتح صفحه القرآن ، انقر على الصفحه مرة واحده . في اسفل الصفحه ستجد زر تشغيل الصوت و اسم القارئ الذي تود تحميله. لاختيار القارئ انقر على اسم القارئ الموجود ليظهر لك باقي قائمة القراء.ولتحميل الصوت اضغط على زر التشغيل للتحميل وللاستماع للصفحه التي انت عليها او لتحميل السورة.
+        &lt;br/>
+        &lt;br/>&lt;b>كيف احصل على الترجمة؟&lt;/b>
+        &lt;br/>افتح صفحه من المصحف ، انقر على الشاشه مرة واحده .. سيظهر لك شريط بالاعلى ، ستجد ايكونه بالاعلى على شكل كرة ارضيه  (وقد تجد ايكونه الترجمه في بعض الاجهزة مدرجه تحت زر القائمة الموجود بالشريط العلوي الذي على شكل ثلاث نقاط بالطول ) بالنقر عليها ستذهب بك لصفحه يمكنك من خلالها اختيار وتحميل الترجمة التي تود تحميلها وبعد التحميل عد مرة اخرى و انقر على ايكونه الكرة الارضيه لترى الترجمة التي تم تحميلها. .
+        &lt;br/>
+        &lt;br/>&lt;b>كيف يتم اضافه صفحة للمرجعيات؟&lt;/b>
+        &lt;br/>انقر على الصفحه التي تود اضافتها للمرجعيات، سيظهر لك شريط بالاعلى وعلى يمين الشريط ستجد ايكون على شكل نجمة بالنقر عليها سيتم تغير شكلها  إلى شكل مصمت وبالتالي تم حفظ الصفحىة للمرجعيات. و لحذف تلك الصفحه من المرجعيات قم مره اخرى بالذهاب لتلك الصفحه وانقر مرة أخرى على النجمة لالغاء كونها من المرجعيات.
+        &lt;br/>
+        &lt;br/>&lt;b>كيف يمكنني تكبير الخط ؟&lt;/b>
+        &lt;br/> للصفحات العربي يمكنك وضع جهازك على الوضع الأفقي، يمكنك من خلال ذلك الحصول على حجم اكبر للخط. وللترجمة اذهب للإعدادات و اختر حجم الترجمة.
+        &lt;br/>
+        &lt;br/>&lt;b>كيف يمكنني ارسال اية ؟&lt;/b>
+        &lt;br/>
+        اثناء قراءتك اضغط على الاية ضغطة طويلة ستظهر لك قائمة بها عدة اختيارات منها الارسال ومنها تسجيل الايه في المرجعيات، نسخ الاية، و تفسير الاية.</string>
+    <string name="search_hint">بحث في القران</string>
+    <string name="quranSearchType">آيات القران</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+        <item quantity="zero">لا توجد نتائج في البحث عن \"%1$s\"</item>
+        <item quantity="one">نتيجة واحده في البحث عن \"%1$s\"</item>
+        <item quantity="two">نتيجتان في البحث عن \"%1$s\"</item>
+        <item quantity="few">%2$d نتائج في البحث عن \"%1$s\"</item>
+        <item quantity="many">%2$d نتيجة في البحث عن \"%1$s\"</item>
+        <item quantity="other">%2$d نتيجة في البحث عن \"%1$s\"</item>
+    </plurals>
+
+    <!-- Search messages -->
+    <string name="found_in_sura">سورة</string>
+    <string name="translation_settings">إعدادات التفسير</string>
+    <string name="no_results">لا توجد نتائج ل \"%s\"</string>
+    <string name="no_active_translation">يرجى الذهاب أولا إلى إعدادت التفاسير والتراجم..</string>
+    <string name="no_arabic_search_available">لتفعيل البحث بالعربية يجب تحميل قاعدة البيانات.. هل ترغب في ذلك ؟</string>
+    <string name="get_arabic_search_db">حمل قاعدة البيانات</string>
+
+    <!-- Quran Preference Activity -->
+    <string name="prefs_category_navigation">التصفح</string>
+    <string name="prefs_volume_key_navigation_title">تصفح بمفاتيح الصوت</string>
+    <string name="prefs_volume_key_navigation_summary">استخدم مفاتيح الصوت للتصفح بين الصفحات</string>
+    <string name="prefs_category_reading">إعدادات القراءة</string>
+    <string name="prefs_category_translation">إعدادات التفسير والترجمة</string>
+    <string name="prefs_category_display_settings">إعدادات العرض</string>
+    <string name="prefs_new_background_title">الخلفية الجديدة</string>
+    <string name="prefs_lock_orientation_title">اﻹبقاء على وضع العرض</string>
+    <string name="prefs_lock_orientation_summary_on">وضع العرض سيتم الحفاظ عليه</string>
+    <string name="prefs_lock_orientation_summary_off">وضع العرض يتغير تلقائيا</string>
+    <string name="prefs_landscape_orientation_title">الوضع اﻷفقي</string>
+    <string name="prefs_landscape_orientation_summary_on">سيتم استخدام الوضع اﻷفقي</string>
+    <string name="prefs_landscape_orientation_summary_off">سيتم استخدام الوضع الرأسي</string>
+    <string name="prefs_night_mode_title">القراءة الليلية</string>
+    <string name="prefs_night_mode_summary">الخلفية باللون اﻷسود والخطوط باللون اﻷبيض</string>
+    <string name="prefs_night_mode_text_brightness_title">إضاءة الخط</string>
+    <string name="prefs_night_mode_text_brightness_summary">إضاءة الخط عند تفعيل القراءة الليلية</string>
+    <string name="prefs_overlay_page_info_title">عرض بيانات الصفحة (تجريبية)</string>
+    <string name="prefs_overlay_page_info_summary">عرض رقم الصفحة، اسم السورة، ورقم الجزء أثناء القراءة</string>
+    <string name="prefs_display_marker_title">التنبيه</string>
+    <string name="prefs_display_marker_summary">عرض تنبيه عند الوصول إلى بداية الربع أو الجزء</string>
+    <string name="prefs_highlight_bookmarks_title">تعليم المرجعيات</string>
+    <string name="prefs_highlight_bookmarks_summary">علم الآيات التي وضعت في المرجعيات</string>
+    <string name="prefs_translation_text_title">خط التفسير والترجمة</string>
+    <string name="prefs_translations">التفسير والترجمة</string>
+    <string name="prefs_translations_summary">حمّل واختر التفاسير والتراجم</string>
+    <string name="prefs_ayah_before_translation_title">عرض اﻵية مع التفسير</string>
+    <string name="prefs_ayah_before_translation_summary">اختر لعرض الآية مع التفسير</string>
+    <string name="prefs_category_download">خيارات التحميل</string>
+    <string name="prefs_streaming_title">استماع عبر اﻻنترنت</string>
+    <string name="prefs_streaming_summary"> سيتم تشغيل الملفات عبر اﻻنترنت (لن يتم تنزيل الملفات على الجهاز)، هذا الخيار متاح للتلاوات الغير متصلة فقط</string>
+    <string name="prefs_download_amount_title">كم التحميل</string>
+    <string name="prefs_download_amount_summary">كم التحميل للتلاوات الغير متصلة</string>
+    <string name="prefs_advanced_settings_title">إعدادات متقدمة</string>
+    <string name="prefs_app_location_title">مكان التطبيق</string>
+    <string name="prefs_app_location_summary">اختر الذاكرة التي سيتم تخزين الملفات عليها</string>
+    <string name="prefs_sdcard_internal">الذاكرة الداخلية</string>
+    <string name="prefs_sdcard_external">الذاكرة الخارجية</string>
+    <string name="prefs_sdcard_auto">تلقائي</string>
+    <string name="prefs_app_size">مساحة التطبيق</string>
+    <string name="prefs_calculating_app_size">جاري حساب مساحة التطبيق</string>
+    <string name="prefs_copying_app_files">جاري نسخ ملفات التطبيق</string>
+    <string name="prefs_err_moving_app_files">حدث خطأ اثناء نقل ملفات التطبيق</string>
+    <string name="prefs_no_enough_space_to_move_files">لا يوجد مساحة كافية لنقل ملفات التطبيق</string>
+    <string name="prefs_tablet_mode_title">وضع الأجهزة اللوحية</string>
+    <string name="prefs_tablet_mode_enabled">عرض صفحتين في الوضع الأفقي</string>
+    <string name="prefs_tablet_mode_disabled">عرض صفحة واحدة في الوضع الأفقي</string>
+    <!-- Preferences End -->
+
+    <string name="downloaded_translations">الملفات المحملة</string>
+    <string name="available_translations">الملفات المتاحة للتحميل</string>
+    <string name="remove_button">احذف</string>
+    <string name="dialog_ok">موافق</string>
+
+    <!-- translation updates -->
+    <string name="update_available">هناك تحديثات</string>
+    <string name="translation_updates_available">هناك تحديثات للتراجم والتفاسير. هل ترغب في تحميلها الآن؟</string>
+    <string name="translation_dialog_yes">نعم</string>
+    <string name="translation_dialog_later">لاحقا</string>
+    <string name="quran_rob3">ربع</string>
+    <string name="quran_nos">نصف</string>
+    <string name="quran_talt_arb3">ثلاثة أرباع</string>
+    <string name="quran_hizb">الحزب</string>
+    <string name="quran_juz2">الجزء</string>
+    <string name="quran_page">الصفحة</string>
+    <string name="quran_sura">سورة</string>
+    <string name="quran_ayah">آية</string>
+    <string name="quran_sura_title">سورة %1$s</string>
+    <string name="sura_ayah_notification_str">سورة %1$s, آية %2$d</string>
+    <string name="bookmarks_current_page">الصفحة الحالية</string>
+    <string name="index_loading">جاري التحميل…</string>
+    <string name="canceling">جاري إلغاء اﻷمر&#8230;</string>
+    <string name="juz2_description">الجزء %1$s</string>
+    <string name="page_description">صفحة %1$s, جزء %2$s</string>
+    <string name="highlighting_database">جاري تحميل الملفات المطلوبة</string>
+    <string name="timing_database">جاري تحميل الملفات المطلوبة</string>
+    <string name="infinity">&#8734;</string>
+
+    <!-- download statuses and errors -->
+    <string name="download_successful">تم التحميل</string>
+    <string name="download_processing">جاري تجهيز الملفات&#8230;</string>
+    <string name="download_error_general">لم يتم تحميل الملفات</string>
+    <string name="download_error_disk">لا توجد مساحة كافية للتخزين</string>
+    <string name="download_error_network">لا يمكن اﻻتصال بالانترنت</string>
+    <string name="download_error_perms">الصلاحيات غير كافية لتحميل الملفات</string>
+    <string name="download_error_invalid_download">الملفات المحملة تالفة</string>
+    <string name="download_error_invalid_download_retry">هناك ملف تالف، جاري إعادة التحميل</string>
+    <string name="download_error_network_retry">لا يمكن اﻻتصال بالانترنت، جاري إعادة المحاولة&#8230;</string>
+    <string name="notification_download_canceled">تم إلغاء التحميل</string>
+    <string name="sdcard_error">لم يتم العثور على بطاقه الذاكرة الرقمية. اعد وضعها و حاول مرة اخرى.</string>
+
+    <!-- downloading dialogs -->
+    <string name="download_progress">تم تحميل %1$s / %2$s</string>
+    <string name="process_progress">جاري اﻹعداد %1$d / %2$d</string>
+    <string name="download_retry">اعد المحاولة</string>
+    <string name="download_cancel">إلغاء</string>
+    <string name="download_extra_data">لدعم الترجمة و المشاركة يجب تحميل بعض
+       الملفات .. حمل الأن؟</string>
+    <string name="download_non_wifi_prompt">أنت لست على وأي فأي.  تحميل البيانات على أية حال؟</string>
+
+    <!-- translation database stuff -->
+    <string name="remove_dlg_title">امسح التفسير/الترجمة؟</string>
+    <string name="remove_dlg_msg">هل ترغب في حذف التفسير/الترجمة %1$s؟</string>
+    <string name="error_getting_translation_list">لم يتم تحميل الملف المطلوب، من فضلك أعد المحاولة</string>
+    <string name="search_data">بيانات البحث</string>
+    <string name="need_translation">لم يتم تحميل أي تفسير أو ترجمة</string>
+    <string name="get_translations">حمّل التفسير أو الترجمة</string>
+
+    <!-- help -->
+    <string name="email_us">اذا لم تجد اجابه سؤالكم بالاعلى فيمكنكم مراسلتنا على هذا البريد quranandroid@gmail.com للدعم. ونحيط بكم علما انه تصلنا كثير من الاسئله ، ولهذا قد لا نرد على جميع الرسائل.‎</string>
+
+    <!-- sura metainfo -->
+    <string name="makki">مكية</string>
+    <string name="madani">مدنية</string>
+
+    <plurals name="verses">
+        <item quantity="zero">آية</item>
+        <item quantity="one">آية</item>
+        <item quantity="two">آيتان</item>
+        <item quantity="few">%s آيات</item>
+        <item quantity="many">%s آية</item>
+        <item quantity="other">%s آية</item>
+    </plurals>
+
+    <!-- ayah action panel -->
+    <string name="ayah_tags_page">تصنيفات</string>
+    <string name="ayah_translation_page">ترجمة</string>
+    <string name="play_from">من</string>
+    <string name="play_to">إلى</string>
+    <string name="play_options">اختيارات</string>
+    <string name="play_restrict_range"> شغل ما تم اختياره من الايات فقط</string>
+    <string name="repeat_verses_range">تكرار مجموعة الآيات:</string>
+    <string name="repeat_each_verse">تكرار كل اية :</string>
+    <string name="play_apply">تطبيق</string>
+    <string name="play_apply_and_play">تطبيق وتشغيل</string>
+
+    <string-array name="repeatValues">
+        <item>ابدا</item>
+        <item>مرة واحدة</item>
+        <item>مرتان</item>
+        <item>ثلاث مرات</item>
+        <item>لانهائي</item>
+    </string-array>
+
+    <!-- long press -->
+    <string name="bookmark_ayah">أضف الآية إلى المرجعيات</string>
+    <string name="unbookmark_ayah">حذف الآية من المرجعيات</string>
+    <string name="tag_ayah">تصنيف الآية</string>
+    <string name="share_ayah">شارك رابط الآية</string>
+    <string name="share_ayah_text">شارك نص الآية</string>
+    <string name="translation_ayah">تفسير/ترجمة الآية</string>
+    <string name="play_from_here">بدء التلاوة من هذه الآية</string>
+    <string name="via_string">بواسطة @QuranAndroid</string>
+    <string name="search_key">للبحث عن آية</string>
+    <string name="copy_ayah">نسخ الآية</string>
+    <string name="ayah_copied_popup">تم نسخ الآية</string>
+    <string name="show_more">المزيد</string>
+
+    <!-- bookmarks & tags contextual action bar -->
+    <string name="delete_bookmark">حذف المرجعية</string>
+    <string name="tag_bookmark">تصنيف المرجعية</string>
+    <string name="delete_tag">حذف التصنيف</string>
+    <string name="edit_tag">تعديل الصنف</string>
+    <string name="new_tag">صنف جديد</string>
+    <string name="not_tagged">غير مصنف</string>
+
+    <!-- tag dialog -->
+    <string name="tag_dlg_title">صنف</string>
+    <string name="tag_name">اسم الصنف</string>
+
+    <!-- bookmark & tag list -->
+    <string name="bookmarks_list_empty">لا توجد أي مرجعيات</string>
+    <string name="tags_list_empty">لا توجد أي تصنيفات</string>
+
+</resources>

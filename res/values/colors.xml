@@ -1,0 +1,32 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="pressed">@color/accent_material_dark</color>
+    <color name="icon_pressed">#ff73b6b0</color>
+    <color name="defaultColor">#00000000</color>
+    <color name="app_color">#4ab5ab</color>
+    <color name="card_bg">#ffd3ffce</color>
+    
+    <color name="page_background">#FFF4CB</color>
+	<color name="header_text_color">#31B6E7</color>
+	<color name="sura_info_color">#FFFFFF</color>
+	<color name="sura_details_color">#D1D1D1</color>
+	<color name="hizb_number_color">#FF000000</color>
+    <color name="transparent_actionbar_color">#AA000000</color>
+    <color name="panel_background_color">#cc000000</color>
+    <color name="icon_page_indicator_color">#FFFFFF</color>
+    <color name="translation_hdr_color">#ff649ab8</color>
+    <color name="translation_sura_header">#ff649ab8</color>
+    <color name="overlay_text_color">#ff888888</color>
+    <color name="selection_highlight">#404694A6</color>
+    <color name="audio_highlight">#4046A646</color>
+    <color name="note_highlight">#40EBEB21</color>
+    <color name="bookmark_highlight">#40A4A4A4</color>
+    <color name="translation_highlight">#ff33b5e5</color>
+    <color name="toolbar_background">#ed2b5836</color>
+    <color name="toolbar_item_pressed">#552bff36</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="lighter_gray">#ddd</color>
+</resources>

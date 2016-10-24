@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/ozkrony/ver1/ui/widgets/ArabicTextView.java" />
+        <ignore path="src/info/semsamot/actionbarrtlizer/ActionBarRtlizer.java" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore" />
+</lint>

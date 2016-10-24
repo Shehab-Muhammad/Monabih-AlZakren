@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ozkrony.ver1.ui.NewZekr" >
+    
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save"
+        app:showAsAction="always"
+        android:actionLayout="@layout/action_save"/>
+
+</menu>

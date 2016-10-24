@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView 
+        android:id="@+id/ic_add_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ic_action_new"
+        android:background="@drawable/grediant_bg"/>
+    
+    <TextView 
+        android:id="@+id/text_add_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_add_hint"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"/>
+    
+    <Button 
+        android:id="@+id/go_it_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/rounded_corners_button"
+        android:layout_below="@id/text_add_hint"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+        android:text="@string/got_it"/>
+
+</RelativeLayout>
